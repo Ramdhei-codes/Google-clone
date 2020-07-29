@@ -145,3 +145,14 @@ body{
     margin: 0 5px;
 }
 
+@media screen and (max-width: 600px){
+
+    .main__search{
+        width: 80%;
+    }
+
+    .business{
+        display: none;
+    }
+}
+

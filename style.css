@@ -1,0 +1,147 @@
+*{
+    /* box-sizing: border-box; */
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header__menu{
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    padding-right: 15px;
+}
+
+.header__link{
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.header__link:hover{
+    text-decoration: underline;
+}
+
+.header__apps{
+    width: 18px;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.header__profile{
+    border-radius: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: calc(100vh - 100px);
+}
+
+.main__logo{
+    width: 272px;
+}
+
+.main__search{
+    width: 582px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    padding: 0 10px;
+    margin: 30px 0;
+}
+
+.main__lens{
+    width: 15px;
+    margin-right: 10px;
+}
+
+.main__img{
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+
+.main__input{
+    height: 40px;
+    width: calc(582px - 44px);
+    border: none;
+    outline: none;
+}
+
+.main__buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main__button{
+    border: none;
+    background-color: #f2f2f2;
+    color: #5F6368;
+    cursor: pointer;
+    height: 36px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    font-size: 14px;
+    outline: none;
+    border-radius: 3px;
+}
+
+.main__button:hover{
+    border: 1px solid #5F6368;
+    color: black;
+}
+
+.main__language{
+    text-align: center;
+}
+
+.main__info a{
+    text-decoration: none;
+}
+
+.main__info a:hover{
+    text-decoration: underline;
+}
+
+.footer{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    border: 1px solid #f5f5f5;
+}
+
+.footer__linkContainer{
+    margin: 0 10px;
+}
+
+.footer__link{
+    color: gray;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 0 5px;
+}
+

@@ -32,9 +32,13 @@ body{
 }
 
 .header__apps{
-    width: 24px;
-    margin: 0 15px;
-    cursor: pointer;
+    margin: 0 10px;
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 40px;
+    height: 40px;
 }
 
 .header__profile{
@@ -74,14 +78,24 @@ body{
 }
 
 .main__lens{
-    width: 15px;
-    margin-right: 10px;
+    margin: 0 5px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 18px;
+    height: 18px;
 }
 
-.main__img{
+.main__mic{
     width: 14px;
-    /* height: 24px; */
     cursor: pointer;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 18px;
+    height: 18px;
 }
 
 .main__input{
@@ -136,14 +150,18 @@ body{
 }
 
 .footer__linkContainer{
-    margin: 0 10px;
+    margin: 0 20px;
 }
 
 .footer__link{
-    color: gray;
+    color: #5F6368;
     font-size: 14px;
     text-decoration: none;
-    margin: 0 5px;
+    margin: 0 10px;
+}
+
+.footer__link:hover{
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 600px){

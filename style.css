@@ -103,6 +103,7 @@ body{
     width: calc(582px - 44px);
     border: none;
     outline: none;
+    font-size: 16px;
 }
 
 .main__buttons{
@@ -164,12 +165,26 @@ body{
     text-decoration: underline;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 767px){
 
     .main__search{
         width: 80%;
     }
 
+    .footer{
+        flex-direction: column;
+    }
+
+    .footer__linkContainer{
+        margin: 1em 0;
+    }
+}
+
+@media screen and (max-width: 480px){
+
+}
+
+@media screen and (max-width: 320px){
     .business{
         display: none;
     }
